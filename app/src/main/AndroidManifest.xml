@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itu.kratika.courseguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.itu.kratika.courseguide.CourseGuideApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.itu.kratika.courseguide.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.itu.kratika.courseguide.DiscussionForum"
+            android:label="@string/title_activity_discussion_forum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.faq"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.planNetworking"
+            android:label="@string/title_activity_plan_networking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.sample"
+            android:label="@string/title_activity_sample"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.itu.kratika.courseguide.PlanYourSchedule"
+            android:label="@string/title_activity_plan_your_schedule"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.FutureStudent"
+            android:label="@string/title_activity_future_student"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan1"
+            android:label="@string/title_activity_plan1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan2"
+            android:label="@string/title_activity_plan2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan3"
+            android:label="@string/title_activity_plan3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan4"
+            android:label="@string/title_activity_plan4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan5"
+            android:label="@string/title_activity_plan5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.main_discussion_forum_list"
+            android:label="@string/title_activity_main_discussion_forum_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Accomodation"
+            android:label="@string/title_activity_accomodation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.CurrentStudent"
+            android:label="@string/title_activity_current_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.CourseStructure"
+            android:label="@string/title_activity_course_structure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.GettingIntoItu"
+            android:label="@string/title_activity_getting_into_sjsu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan01"
+            android:label="@string/title_activity_plan01"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.PlanSem2"
+            android:label="@string/title_activity_plan_sem2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.itu.kratika.courseguide.Plan02"
+            android:label="@string/title_activity_plan02"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
