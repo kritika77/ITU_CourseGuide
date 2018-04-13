@@ -39,10 +39,10 @@ public String Msg = "Please check appropriate options";
         TextView text1 = (TextView) findViewById(R.id.textView3);
         text1.setTypeface(CourseGuide.robotoRegular);
 
-        CheckBox text2 = (CheckBox) findViewById(R.id.computer);
+        CheckBox text2 = (CheckBox) findViewById(R.id.networking);
         text2.setTypeface(CourseGuide.robotoMedium);
 
-        CheckBox text3 = (CheckBox) findViewById(R.id.software);
+        CheckBox text3 = (CheckBox) findViewById(R.id.embedded);
         text3.setTypeface(CourseGuide.robotoMedium);
 
 
@@ -72,8 +72,8 @@ public String Msg = "Please check appropriate options";
 
     }
     public void planNetwork(View view) {
-        final CheckBox checkBox = (CheckBox) findViewById(R.id.computer);
-        final CheckBox checkBox7 = (CheckBox) findViewById(R.id.software);
+        final CheckBox checkBox = (CheckBox) findViewById(R.id.networking);
+        final CheckBox checkBox7 = (CheckBox) findViewById(R.id.embedded);
         final CheckBox checkBox2 = (CheckBox) findViewById(R.id.prereq1); //DD
         final CheckBox checkBox3 = (CheckBox) findViewById(R.id.prereq2); //oops
         final CheckBox checkBox4 = (CheckBox) findViewById(R.id.prereq3); //OS

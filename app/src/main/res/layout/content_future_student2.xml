@@ -26,7 +26,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Networking"
+        android:text="Software Engineering"
         android:id="@+id/networking"
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true"
@@ -36,7 +36,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Embedded"
+        android:text="Computer Engineering"
         android:id="@+id/embedded"
         android:layout_below="@+id/networking"
         android:layout_alignParentStart="true" />

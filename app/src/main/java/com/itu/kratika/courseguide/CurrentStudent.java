@@ -41,8 +41,8 @@ public class CurrentStudent extends AppCompatActivity
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, courses);
         listView = (ListView) findViewById(R.id.courselist);
         adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, courses1);
-        checkBox1 = (CheckBox) findViewById(R.id.computer);
-        checkBox2 = (CheckBox) findViewById(R.id.software);
+        checkBox1 = (CheckBox) findViewById(R.id.networking);
+        checkBox2 = (CheckBox) findViewById(R.id.embedded);
         checkBox3 = (CheckBox) findViewById(R.id.sem1);
         checkBox4 = (CheckBox) findViewById(R.id.sem2);
 
