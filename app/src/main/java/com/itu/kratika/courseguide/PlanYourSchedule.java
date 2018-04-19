@@ -45,9 +45,8 @@ public class PlanYourSchedule extends AppCompatActivity
                 "    <br><h1><strong><font color=#0000FF>Course-taking Sequence</font></strong></h1><em>The appropriate course-taking sequence is shown below:</em>" +
                 "<br><br><ol><li><font color=#000000>1. Condition courses</font></li><br>" +
                 "<li><font color=#000000>2. Program Core Courses</font></li><br>" +
-                "<li><font color=#000000>3. Specialization Core courses</font></li><br>" +
-                "<li><font color=#000000>4. Technical electives</font></li><br>" +
-                "<li><font color=#000000>5. Master Projects(), or Thesis(), and more technical electives.</font></ol></string>\n"));
+                "<li><font color=#000000>3. Technical electives</font></li><br>" +
+                "<li><font color=#000000>4. Master Projects(), or Thesis(), and more technical electives.</font></ol></string>\n"));
 
         TextView textView2 = (TextView) findViewById(R.id.text1);
         textView2.setTypeface(CourseGuide.robotoRegular);

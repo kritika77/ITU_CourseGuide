@@ -75,7 +75,7 @@ public class faq extends AppCompatActivity {
         gru1.setName("What is the minimum number of courses I should take per semester?");
 
         childFaq ch1_1 = new childFaq();
-        ch1_1.setName("You must enroll in at least one class in order to retain your student status. If you are on F1 visa, you must enroll in at least 9 units (3 courses) such as CMPE 180-92, CMPE 180-94, and CMPE 200.");
+        ch1_1.setName("You must enroll in at least one class in order to retain your student status. If you are on F1 visa, you must enroll in at least 9 units (3 courses)");
         child_list.add(ch1_1);
 
 
@@ -88,7 +88,7 @@ public class faq extends AppCompatActivity {
         gru2.setName("Can I take a class without completing all prerequisites?");
 
         childFaq ch2_1 = new childFaq();
-        ch2_1.setName("Except SWE 200 and 220, the instructor, not graduate advisor, makes decisions. If you believe you have sufficient background to take the class, you can enroll in the class and then request the instructor's consent. If the instructor denies your request, you must drop the class during the first two weeks of the semester. Graduate advisor enforces the prerequisites of CMPE 200 and 220 without exceptions.");
+        ch2_1.setName("Except SWE 500, SWE 600, SWE 602, SWE 680 and SWE 690, the instructor, not graduate advisor, makes decisions. If you believe you have sufficient background to take the class, you can enroll in the class and then request the instructor's consent. If the instructor denies your request, you must drop the class during the first two weeks of the semester. Graduate advisor enforces the prerequisites without exceptions.");
         child_list.add(ch2_1);
 
         gru2.setItems(child_list);
@@ -99,7 +99,7 @@ public class faq extends AppCompatActivity {
         gru3.setName("What are the differences between a master project and master thesis?");
 
         childFaq ch3_1 = new childFaq();
-        ch3_1.setName("A thesis has a more rigid requirements of contents and reporting style. A project-track student must enroll in CMPE 295A and CMPE 295B in two consecutive semesters A thesis-track student must enroll in CMPE 299A and CMPE 299B in two consecuive semesters. Summer enrollments are optional.");
+        ch3_1.setName("Thesis is concerned with the central question or statement of a scholarly argument that leads to further research, while a research paper is all about proving that central argument.");
         child_list.add(ch3_1);
 
         gru3.setItems(child_list);
@@ -107,15 +107,13 @@ public class faq extends AppCompatActivity {
         // Setting Group 4
         child_list = new ArrayList<childFaq>();
         groupFaq gru4 = new groupFaq();
-        gru4.setName("When shall I remove my admission conditions?");
+        gru4.setName("Can I submit an official GRE or GMAT test score to support my application?");
 
         childFaq ch4_1 = new childFaq();
-        ch4_1.setName("You should complete all admission conditions as soon as possible to avoid the delay of your graduation. However, it is not mandatory for you to satisfy the admission conditions during a specific semester. Some courses have the prerequisites of satisfying these conditions. You can’t take CMPE 200 or 240 without satisfying the Digital Design condition. Likewise, you can’t take CMPE 220 without satisfying both Object-Oriented Programming and Operating Systems Design conditions. In addition, a student can't take CMPE 295A before satisfying all admission conditions.");
+        ch4_1.setName("Yes you can submit a GRE or GMAT test score. GRE or GMAT test scores are optional but highly recommended for applicants who have a cumulative GPA lower than 2.75. Please go to this link and scroll down to Institution and Program Codes for more info: ITU GRE/GMAT Codes..");
         child_list.add(ch4_1);
 
         gru4.setItems(child_list);
-
-
 
         // Setting Group 5
         child_list = new ArrayList<childFaq>();
