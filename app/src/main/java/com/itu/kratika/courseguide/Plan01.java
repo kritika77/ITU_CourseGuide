@@ -206,31 +206,25 @@ public class Plan01 extends AppCompatActivity
 
         childFaq ch1_1 = new childFaq();
         ch1_1.setName("1st Sem:\n" +
-                "CMPE 180-90\n" +
-                "CMPE 180-92\n" +
-                "CMPE 190-94\n" +
+                "SWE 561\n" +
+                "SWE 562\n" +
+                "SWE 500\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 200  (Core 1)\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 242 (Specialization 1)\n" +
+                "SWE 600  (Core 1)\n" +
+                "CSC 631 \n" +
+                "CSC 633 \n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 220 (Core 2)\n" +
-                "CMPE 243 (Specialization 2)\n" +
+                "SWE 680 (Core 2)\n" +
+                "SWE 602 (Core 3)\n" +
                 "Elective 1\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "CMPE 240 (Core 3)\n" +
-                "CMPE 244 (Specialization 3)\n" +
-                "CMPE 295A (Project part-1 or thesis or Comprehensive exam)\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n" +
-                "Elective 2");
+                "CSC 545 \n" +
+                "CSC 625 \n" +
+                "SWE 690 (Project or thesis) \n");
         child_list.add(ch1_1);
-
-
 
         gru1.setItems(child_list);
 
@@ -241,31 +235,27 @@ public class Plan01 extends AppCompatActivity
 
         childFaq ch2_1 = new childFaq();
         ch2_1.setName("1st Sem:\n" +
-                "CMPE 180-92\n" +
-                "CMPE 180-94\n" +
-                "CMPE 242 (Specialization 1)\n" +
+                "SWE 610 \n" +
+                "CSC 511 \n" +
+                "CSC 512 \n" +
                 "\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 180-90\n" +
-                "CMPE 200  (Core 1)\n" +
-                "CMPE 243 (Specialization 2)\n" +
+                "SWE 500 (Core 1)\n" +
+                "CSC 525 \n" +
+                "CSC 509 \n" +
                 "\n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 220 (Core 2)\n" +
-                "CMPE 244 (Specialization 3)\n" +
+                "SWE 600 (Core 2)\n" +
+                "SWE 680 \n" +
+                "CSC 527 \n" +
                 "\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "CMPE 240 (Core 3)\n" +
+                "SWE 602 (Core 3)\n" +
                 "Elective 1\n" +
-                "CMPE 295A (Project part-1 or thesis or Comprehensive exam)\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n" +
-                "Elective 2");
+                "SWE 690 (Project or thesis)\n");
         child_list.add(ch2_1);
 
         gru2.setItems(child_list);
@@ -277,31 +267,27 @@ public class Plan01 extends AppCompatActivity
 
         childFaq ch3_1 = new childFaq();
         ch3_1.setName("1st Sem:\n" +
-                "CMPE 180-92\n" +
-                "CMPE 180-94\n" +
-                "CMPE 243 (Specialization 1)\n" +
+                "CSC 512\n" +
+                "SWE 500 (Core 1) \n" +
+                "SWE 610 \n" +
                 "\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 180-90\n" +
-                "CMPE 200  (Core 1)\n" +
-                "CMPE 244 (Specialization 2)\n" +
+                "CSC 631 \n" +
+                "SWE 600 (Core 2) \n" +
+                "CSC 680 \n" +
                 "\n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 220 (Core 2)\n" +
-                "CMPE 242 (Specialization 3)\n" +
+                "CSC 525 (Technical writing)\n" +
+                "SWE 602 (Core 3) \n" +
+                "SWE 680 (Core 4) \n" +
                 "\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "CMPE 240 (Core 3)\n" +
+                "CSC 633 (Core 3)\n" +
                 "Elective 1\n" +
-                "CMPE 295A (Project part-1 or thesis or Comprehensive exam)\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n" +
-                "Elective 2");
+                "SWE 690 (Project or thesis)\n");
         child_list.add(ch3_1);
 
         gru3.setItems(child_list);
@@ -314,39 +300,28 @@ public class Plan01 extends AppCompatActivity
         childFaq ch4_1 = new childFaq();
         ch4_1.setName(
                 "1st Sem:\n" +
-                        "CMPE 180-90\n" +
-                        "CMPE 180-92\n" +
-                        "CMPE 190-94\n" +
+                        "SWE 500 (Core 1)\n" +
+                        "CSC 525 \n" +
+                        "CSC 520 \n" +
                         "\n" +
                         "2nd Sem:\n" +
-                        "CMPE 200  (Core 1)\n" +
-                        "CMPE 220 (Core 2)\n" +
-                        "CMPE 243 (Specialization 1)\n" +
+                        "CSC 518 \n" +
+                        "SWE 600 (Core 2)\n" +
+                        "CSC 512 \n" +
                         "\n" +
                         "3rd Sem:\n" +
-                        "CMPE 294 (Technical writing)\n" +
-                        "CMPE 244 (Specialization 2)\n" +
-                        "CMPE 240 (Core 3)\n" +
+                        "SWE 602 (Core 3)\n" +
+                        "CSC 530 \n" +
+                        "SWE 680 (Core 4)\n" +
                         "\n" +
                         "\n" +
                         "4th Sem:\n" +
                         "Elective 1\n" +
-                        "CMPE 242 (Specialization 3)\n" +
-                        "CMPE 295A (Project part-1 or thesis or Comprehensive exam)\n" +
-                        "\n" +
-                        "5th Sem:\n" +
-                        "CMPE 295B\n" +
-                        "Elective 2"
-        );
+                        "CSC 633 \n" +
+                        "SWE 690 (Project or thesis)\n");
         child_list.add(ch4_1);
 
         gru4.setItems(child_list);
-
-
-
-
-
-
 
         //listing all groups
         group_list.add(gru1);

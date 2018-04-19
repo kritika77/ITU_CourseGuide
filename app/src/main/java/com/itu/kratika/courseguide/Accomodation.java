@@ -20,7 +20,7 @@ import android.widget.TextView;
 public class Accomodation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public void faq(View view){
-        Uri uriUrl = Uri.parse("http://www.housing.sjsu.edu/faqs/faq-at-front-page/index.html");
+        Uri uriUrl = Uri.parse("https://www.apartmentguide.com/neighborhoods/California/San-Jose/North-San-Jose/");
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
       /*  Intent intent = new Intent();
@@ -30,7 +30,7 @@ public class Accomodation extends AppCompatActivity
         startActivity(intent);*/
     }
     public void onCampus(View view){
-        Uri uriUrl = Uri.parse("https://sjsu.starrezhousing.com/StarRezPortal/Default.aspx?Params=L9ezxPcQnQuRGKTzF%2b4sxeNblvAA%2b26c");
+        Uri uriUrl = Uri.parse("https://www.apartmentguide.com/neighborhoods/California/San-Jose/North-San-Jose/");
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
      /*   Intent intent = new Intent();
@@ -40,7 +40,7 @@ public class Accomodation extends AppCompatActivity
         startActivity(intent);*/
     }
     public void offCampus(View view) {
-        Uri uriUrl = Uri.parse("http://www.housing.sjsu.edu/housingaz/offcampushousingresources/");
+        Uri uriUrl = Uri.parse("https://www.apartmentguide.com/neighborhoods/California/San-Jose/North-San-Jose/");
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
      /*   Intent intent = new Intent();
@@ -60,7 +60,7 @@ public class Accomodation extends AppCompatActivity
         TextView txtView = (TextView) findViewById(R.id.text2);
         txtView.setTypeface(CourseGuide.robotoThin);
 
-        String detail = " <br>University Housing Services strives to create a residential community that supports and enhances academic success, fosters the learning and development of our students, and promotes student involvement and civic engagement.  " +
+        String detail = " <br> Housing Services strives to create a residential community that supports and enhances academic success, fosters the learning and development of our students, and promotes student involvement and civic engagement.  " +
                 "As a department, our practices promote efficiency, operational effectiveness and" +
                 " fiscal responsibility.";
         txtView.setText(Html.fromHtml(detail));

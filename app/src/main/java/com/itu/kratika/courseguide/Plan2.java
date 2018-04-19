@@ -205,28 +205,27 @@ public class Plan2 extends AppCompatActivity
 
         childFaq ch1_1 = new childFaq();
         ch1_1.setName("1st Sem:\n " +
-        "CMPE 180-92\n" +
-                "CMPE 190-94\n" +
-                "CMPE 220 (Core 1)\n" +
+                "CSC 512\n" +
+                "SWE 500 (Core 1) \n" +
+                "SWE 610 \n" +
+                "\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 200 (Core 2)\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 206 (Specialization 1)\n" +
+                "CSC 631 \n" +
+                "SWE 600 (Core 2) \n" +
+                "CSC 680 \n" +
+                "\n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 240 (Core 3)\n" +
-                "CMPE 207 (Specialization 2)\n" +
-                "Elective 1\n" +
+                "CSC 525 (Technical writing)\n" +
+                "SWE 602 (Core 3) \n" +
+                "SWE 680 (Core 4) \n" +
+                "\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "CMPE 208 (Specialization 3)\n" +
-                "CMPE 295A\n" +
-                "Elective 2\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n"+
-        "Note: This plan will help you complete all your pre-requisite courses in the first semester.");
+                "CSC 633 (Core 3)\n" +
+                "Elective 1\n" +
+                "SWE 690 (Project or thesis)\n");
         child_list.add(ch1_1);
 
 
@@ -240,34 +239,24 @@ public class Plan2 extends AppCompatActivity
 
         childFaq ch2_1 = new childFaq();
         ch2_1.setName("1st Sem:\n" +
-                "CMPE 180-92\n" +
-                "CMPE 190-94\n" +
-                "CMPE 220 (Core 1)\n" +
-                "\n" +
+                "SWE 561\n" +
+                "SWE 562\n" +
+                "SWE 500\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 200 (Core 2)\n" +
-                "CMPE 240 (Core 3)\n" +
-                "CMPE 206 (Specialization 1)\n" +
-                "\n" +
+                "SWE 600  (Core 1)\n" +
+                "CSC 631 \n" +
+                "CSC 633 \n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 207 (Specialization 2)\n" +
-                "CMPE 208 (Specialization 3)\n" +
-                "\n" +
+                "SWE 680 (Core 2)\n" +
+                "SWE 602 (Core 3)\n" +
+                "Elective 1\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "Elective 1\n" +
-                "CMPE 295A\n" +
-                "Elective 2\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n"+
-                "Note:\n"+" 1. This plan will help to complete all the pre-requisites in first semester." +
-                " But one semester you ahve to take 2 core courses.\n"+
-        "2. It is always reccommeneded to complete CMPE 200 first and then take CMPE 240.\n"+
-        "3. CMPE 180-92 and 180-94 are both required to enroll for CMPE 220.");
+                "CSC 545 \n" +
+                "CSC 625 \n" +
+                "SWE 690 (Project or thesis) \n");
         child_list.add(ch2_1);
 
         gru2.setItems(child_list);
@@ -279,34 +268,25 @@ public class Plan2 extends AppCompatActivity
 
         childFaq ch3_1 = new childFaq();
         ch3_1.setName("1st Sem:\n" +
-                "CMPE 180-92\n" +
-                "CMPE 200  (Core 1)\n" +
-                "CMPE 207 (Specialization 1)\n" +
-                "\n" +
+                "SWE 500 (Core 1)\n" +
+                "CSC 525 \n" +
+                "CSC 520 \n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 180-94\n" +
-                "CMPE 208 (Specialization 2)\n" +
-                "CMPE 240 (Core 2)\n" +
-                "\n" +
+                "CSC 518 \n" +
+                "SWE 600 (Core 2)\n" +
+                "CSC 512 \n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 220 (Core 3)\n" +
-                "CMPE 209 (Specialization 3)\n" +
+                "SWE 602 (Core 3)\n" +
+                "CSC 530 \n" +
+                "SWE 680 (Core 4)\n" +
                 "\n" +
                 "\n" +
                 "4th Sem:\n" +
                 "Elective 1\n" +
-                "Elective 2\n" +
-                "CMPE 295A\n" +
-                "\n" +
-                "5th Sem:\n" +
-                "CMPE 295B\n"+
-        "Note:\n"+
-                        "1. This plan will allow you take 1 pre-requisite course per semster and core subject is also evenly distributed avoiding heavy courses in single semester.\n" +
-                "\n2. If you have basic knowledge of networking its better to skip 206 and take Specialization from CMPE 207. 208 and 209.\n" +
-                "\n3. CMPE 180-92 and 180-94 are both required to enroll CMPE 220.\n");
+                "CSC 633 \n" +
+                "SWE 690 (Project or thesis)\n");
         child_list.add(ch3_1);
 
         gru3.setItems(child_list);
@@ -319,33 +299,27 @@ public class Plan2 extends AppCompatActivity
         childFaq ch4_1 = new childFaq();
         ch4_1.setName(
                 "1st Sem:\n" +
-                        "CMPE 180-92\n" +
-                        "CMPE 200  (Core 1)\n" +
-                        "CMPE 207 (Specialization 1)\n" +
+                        "SWE 610 \n" +
+                        "CSC 511 \n" +
+                        "CSC 512 \n" +
                         "\n" +
                         "\n" +
                         "2nd Sem:\n" +
-                        "CMPE 180-94\n" +
-                        "CMPE 208 (Specialization 2)\n" +
-                        "CMPE 240 (Core 2)\n" +
+                        "SWE 500 (Core 1)\n" +
+                        "CSC 525 \n" +
+                        "CSC 509 \n" +
                         "\n" +
                         "\n" +
                         "3rd Sem:\n" +
-                        "CMPE 294 (Technical writing)\n" +
-                        "CMPE 220 (Core 3)\n" +
-                        "Elective 1\n" +
+                        "SWE 600 (Core 2)\n" +
+                        "SWE 680 \n" +
+                        "CSC 527 \n" +
                         "\n" +
                         "\n" +
                         "4th Sem:\n" +
-                        "CMPE 209 (Specialization 3)\n" +
-                        "Elective 2\n" +
-                        "CMPE 295A\n" +
-                        "\n" +
-                        "5th Sem:\n" +
-                        "CMPE 295B"+
-                        "\nNote:\n 1. If you have basic knowledge of networking its better to skip 206 and take Specialization from 207.208 and 209.\n" +
-                        "\n2. CMPE 180-92 and 180-94 are both required to enroll CMPE 220.\n"
-        );
+                        "SWE 602 (Core 3)\n" +
+                        "Elective 1\n" +
+                        "SWE 690 (Project or thesis)\n");
         child_list.add(ch4_1);
 
         gru4.setItems(child_list);

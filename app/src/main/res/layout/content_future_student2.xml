@@ -53,7 +53,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CMPE 190-90"
+        android:text="SWE 500"
         android:id="@+id/prereq1"
         android:layout_below="@+id/textView4"
         android:layout_alignParentStart="true"
@@ -63,7 +63,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CMPE 180-92"
+        android:text="SWE 600"
         android:id="@+id/prereq2"
         android:layout_below="@+id/prereq1"
         android:layout_alignParentStart="true"
@@ -72,7 +72,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CMPE 180-94"
+        android:text="SWE 602"
         android:id="@+id/prereq3"
         android:layout_below="@+id/prereq2"
         android:layout_alignParentStart="true"

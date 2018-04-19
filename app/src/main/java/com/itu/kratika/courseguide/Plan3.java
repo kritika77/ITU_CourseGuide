@@ -205,26 +205,30 @@ public class Plan3 extends AppCompatActivity
 
         childFaq ch1_1 = new childFaq();
         ch1_1.setName("1st Sem:\n" +
-                "CMPE 180-90\n" +
-                "CMPE 220 (Core 1)\n" +
-                "CMPE 206 (Specialization 1)\n" +
+                "CSC 525\n" +
+                "SWE 500 (Core 1) \n" +
+                "CSC 530 \n" +
+                "\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 200 (Core 2)\n" +
-                "CMPE 294 (Technical writing)\n" +
-                "CMPE 207 (Specialization 2)\n" +
+                "CSC 615 \n" +
+                "SWE 600 (Core 2) \n" +
+                "CSC 680 \n" +
+                "\n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 240 (Core 3)\n" +
-
-                "CMPE 208 (Specialization 3)\n" +
-                "CMPE 295A\n" +
+                "CSC 525 (Technical writing)\n" +
+                "SWE 602 (Core 3) \n" +
+                "SWE 680 (Core 4) \n" +
+                "\n" +
                 "\n" +
                 "4th Sem:\n" +
-                "Elective 2\n"+
-                "Elective 1"
-                        +
-                "CMPE 295B");
+                "CSC 633 (Core 3)\n" +
+                "Elective 1\n" +
+                "SWE 690 (Project or thesis)\n" +
+                "Note:\n"+" 1. This plan will help to complete all the pre-requisites in first semester. \n"+
+                "2. It is always recommended to complete SWE 500 first and then take SWE 600.\n"+
+                "3. CSC 525 and CSC 530 are both required to enroll for CSC 615.");
         child_list.add(ch1_1);
 
 
@@ -238,41 +242,34 @@ public class Plan3 extends AppCompatActivity
 
         childFaq ch2_1 = new childFaq();
         ch2_1.setName("1st Sem:\n" +
-                "CMPE 180-90\n" +
-                "CMPE 220 (Core 1)\n" +
-                "CMPE 206 (Specialization 1)\n" +
+                "1st Sem:\n" +
+                "SWE 561\n" +
+                "SWE 562\n" +
+                "SWE 500\n" +
                 "\n" +
                 "2nd Sem:\n" +
-                "CMPE 200 (Core 2)\n" +
-                "CMPE 240 (Core 3)\n" +
-                "CMPE 207 (Specialization 2)\n" +
+                "SWE 600  (Core 1)\n" +
+                "CSC 631 \n" +
+                "CSC 525 \n" +
                 "\n" +
                 "3rd Sem:\n" +
-                "CMPE 294 (Technical writing)\n" +
-
-                "CMPE 209 (Specialization 3)\n" +
-                "CMPE 295A\n" +
+                "SWE 680 (Core 2)\n" +
+                "SWE 602 (Core 3)\n" +
+                "Elective 1\n" +
                 "\n" +
-                "4th Sem:\n"
-                +"Elective 1\n"+
-                "Elective 2\n" +
-                "CMPE 295B");
+                "4th Sem:\n" +
+                "CSC 545 \n" +
+                "CSC 625 \n" +
+                "SWE 690 (Project or thesis) \n" +
+                "Note:\n 1. If you have basic knowledge of HTML its better to skip 525 and take course CSC 625.\n" +
+                "\n2 ");
         child_list.add(ch2_1);
 
         gru2.setItems(child_list);
 
-
-
-
-
-
-
-
         //listing all groups
         group_list.add(gru1);
         group_list.add(gru2);
-
-
 
         return group_list;
     }

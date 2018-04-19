@@ -14,28 +14,46 @@
 
 
     <string-array name="computerEngineeringCourses">
-        <item>CMPE 180/92</item>
-        <item>CMPE 180/94</item>
-        <item>CMPE 180/90</item>
-        <item>CMPE 200</item>
-        <item>CMPE 240</item>
-        <item>CMPE 220</item>
-        <item>CMPE 206</item>
-        <item>CMPE 207</item>
-        <item>CMPE 208</item>
-        <item>CMPE 209</item>
+        <item>CSC 501</item>
+        <item>CSC 502</item>
+        <item>CSC 620</item>
+        <item>CSC 680</item>
+        <item>CSC 518</item>
+        <item>CSC 519</item>
+        <item>CSC 520</item>
+        <item>CSC 522</item>
+        <item>CSC 530</item>
+        <item>CSC 545</item>
+        <item>CSC 550</item>
+        <item>CSC 625</item>
+        <item>CSC 631</item>
+        <item>CSC 633</item>
     </string-array>
 
     <string-array name="softwareEngineeringCourses">
-        <item>CMPE 180/92</item>
-        <item>CMPE 180/94</item>
-        <item>CMPE 180/90</item>
-        <item>CMPE 200</item>
-        <item>CMPE 240</item>
-        <item>CMPE 220</item>
-        <item>CMPE 242</item>
-        <item>CMPE 243</item>
-        <item>CMPE 244</item>
+        <item>SWE 500</item>
+        <item>SWE 600</item>
+        <item>SWE 561</item>
+        <item>SWE 610</item>
+        <item>SWE 640</item>
+        <item>SWE 562</item>
+        <item>SWE 525</item>
+        <item>SWE 570</item>
+        <item>SWE 620</item>
+        <item>CSC 501</item>
+        <item>CSC 502</item>
+        <item>CSC 620</item>
+        <item>CSC 680</item>
+        <item>CSC 518</item>
+        <item>CSC 519</item>
+        <item>CSC 520</item>
+        <item>CSC 522</item>
+        <item>CSC 530</item>
+        <item>CSC 545</item>
+        <item>CSC 550</item>
+        <item>CSC 625</item>
+        <item>CSC 631</item>
+        <item>CSC 633</item>
     </string-array>
     <string name="category">Categories: </string>
     <string-array name="categories">
